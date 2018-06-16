@@ -441,7 +441,6 @@ Scene_Title.prototype.create = function() {
 };
 
 Scene_Title.prototype.start = function() {
-    console.log('start');
     Scene_Base.prototype.start.call(this);
     SceneManager.clearStack();
     this.centerSprite(this._backSprite1);
