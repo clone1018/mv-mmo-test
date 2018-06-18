@@ -3,5 +3,6 @@
 var $plugins =
 [
 {"name":"Community_Basic","status":true,"description":"Plugin used to set basic parameters.","parameters":{"cacheLimit":"20","screenWidth":"1280","screenHeight":"720","changeWindowWidthTo":"","changeWindowHeightTo":"","renderingMode":"auto","alwaysDash":"off"}},
-{"name":"Bifrost","status":true,"description":"Bifrost - Connects with Heimdall to provide MMO features to MV games","parameters":{}}
+{"name":"Bifrost","status":true,"description":"Bifrost - Connects with Heimdall to provide MMO features to MV games","parameters":{}},
+{"name":"ItemBook","status":true,"description":"Displays detailed statuses of items.","parameters":{"Unknown Data":"??????","Price Text":"Price","Equip Text":"Equip","Type Text":"Type"}}
 ];
